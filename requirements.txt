@@ -6,3 +6,4 @@ seaborn
 tensorflow
 xgboost
 catboost
+imbalanced-learn
