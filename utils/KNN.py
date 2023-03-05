@@ -13,12 +13,12 @@ class MyKNN:
         self.k = k
 
 
-    def fit(self, X_train: Any, y_train: Any):
+    def fit(self, X_train: Any, y_train: Any) -> None:
         self.X_train = np.array(X_train)
         self.y_train = np.array(y_train)
 
 
-    def predict(self, X_test: Any):
+    def predict(self, X_test: Any) -> np.array:
 
         answer = []
 
